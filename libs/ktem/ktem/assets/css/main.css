@@ -1,5 +1,11 @@
 :root {
   --main-area-height: calc(100vh - 110px);
+  
+  /* Mikros brand colors */
+  --mikros-primary: #0E76BC;
+  --mikros-primary-light: #1a89e9;
+  --mikros-primary-dark: #0c669e;
+  --mikros-primary-darker: #0a5680;
 }
 
 /* no footer */
@@ -368,11 +374,11 @@ pdfjs-viewer-element {
   -webkit-transform: translate3d(100%, 0, 0);
   -moz-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
-  background: #12df9a;
+  background: var(--mikros-primary);
 }
 
 .switch:has(> input:checked) {
-  background: #0c895f;
+  background: var(--mikros-primary-dark);
 }
 
 /* Bot animation */
@@ -396,7 +402,7 @@ details.evidence {
 }
 
 .message a.citation {
-  color: #10b981;
+  color: var(--mikros-primary);
   text-decoration: none;
 }
 

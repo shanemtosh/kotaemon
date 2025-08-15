@@ -30,6 +30,9 @@ KH_ENABLE_FIRST_SETUP = config("KH_ENABLE_FIRST_SETUP", default=True, cast=bool)
 KH_DEMO_MODE = config("KH_DEMO_MODE", default=False, cast=bool)
 KH_OLLAMA_URL = config("KH_OLLAMA_URL", default="http://localhost:11434/v1/")
 
+# Mikros branding configuration
+KH_APP_NAME = config("KH_APP_NAME", default="Boss Ross")
+
 # App can be ran from anywhere and it's not trivial to decide where to store app data.
 # So let's use the same directory as the flowsetting.py file.
 KH_APP_DATA_DIR = this_dir / "ktem_app_data"

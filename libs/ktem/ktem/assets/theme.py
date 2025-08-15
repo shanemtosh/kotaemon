@@ -18,6 +18,22 @@ gray = colors.Color(
     c950="#010104",
 )
 
+# Mikros brand color - #0E76BC
+mikros_blue = colors.Color(
+    name="mikros_blue",
+    c50="#e6f1fd",
+    c100="#b3d7f8", 
+    c200="#80bdf3",
+    c300="#4da3ee",
+    c400="#1a89e9",
+    c500="#0E76BC",  # Primary brand color
+    c600="#0c669e",
+    c700="#0a5680",
+    c800="#084662",
+    c900="#063644",
+    c950="#032636",
+)
+
 err_txt = "#f05656"
 gradient = "linear-gradient(90deg, *primary_400 20%, *secondary_500 80%)"
 gradient_muted = "linear-gradient(90deg, *primary_500 20%, *secondary_600 80%)"
@@ -145,15 +161,14 @@ light_mode = dict(
 
 class Kotaemon(Soft):
     """
-    Official theme of Kotaemon.
-    Public version: https://huggingface.co/spaces/lone17/kotaemon
+    Official theme of Kotaemon - Customized for Mikros.
     """
 
     def __init__(
         self,
         *,
-        primary_hue: colors.Color | str = colors.emerald,
-        secondary_hue: colors.Color | str = colors.blue,
+        primary_hue: colors.Color | str = mikros_blue,
+        secondary_hue: colors.Color | str = mikros_blue,
         neutral_hue: colors.Color | str = gray,
         spacing_size: sizes.Size | str = sizes.spacing_md,
         radius_size: sizes.Size | str = sizes.radius_md,

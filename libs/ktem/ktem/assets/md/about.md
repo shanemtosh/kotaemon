@@ -1,6 +1,8 @@
-# About Kotaemon
+# About Boss Ross
 
-An open-source tool for you to chat with your documents.
+Your AI-powered document assistant by Mikros.
+
+Boss Ross is built on the open-source Kotaemon platform and customized for Mikros.
 
 [Source Code](https://github.com/Cinnamon/kotaemon) |
 [Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo)
