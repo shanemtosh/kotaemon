@@ -92,6 +92,10 @@ KH_WEB_SEARCH_BACKEND = (
     # "kotaemon.indices.retrievers.jina_web_search.WebSearch"
 )
 
+# File index configuration (reverted from collections)
+FILE_INDEX_SELECTOR_UI = "ktem.index.file.ui.FileSelector"
+FILE_INDEX_PIPELINE = "ktem.index.file.pipelines.DocumentRetrievalPipeline"
+
 KH_DOCSTORE = {
     # "__type__": "kotaemon.storages.ElasticsearchDocumentStore",
     # "__type__": "kotaemon.storages.SimpleFileDocumentStore",

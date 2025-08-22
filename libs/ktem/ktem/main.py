@@ -91,6 +91,7 @@ class App(BaseApp):
                             page = index.get_index_page_ui()
                             setattr(self, f"_index_{index.id}", page)
 
+
             if not KH_DEMO_MODE:
                 if not KH_SSO_ENABLED:
                     with gr.Tab(
